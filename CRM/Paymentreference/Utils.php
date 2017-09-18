@@ -10,7 +10,7 @@ class CRM_Paymentreference_Utils {
   public static function paymentReference($account,$cid){
 
       $factor = array(2, 4, 8, 5, 10, 9, 7, 3, 6, 1, 2, 4, 8, 5, 10, 9, 7, 3, 6, 1);
-      $reference = $account.str_pad($cid, 15-strlen($account), '0', STR_PAD_LEFT);
+      $reference = $account.str_pad($cid . '0', 15-strlen($account), '0', STR_PAD_LEFT);
       $sum=0;
       for($i=1;$i<=15;$i++){
         $sum += substr($reference,-$i,1)*$factor[$i-1];
