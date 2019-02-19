@@ -9,9 +9,7 @@
     <email>klaas.eikelboom@civicoop.org</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">https://github.com/kainuk/nl.schreeuwomleven.paymentreference/</url>
-    <url desc="Documentation">https://github.com/kainuk/nl.schreeuwomleven.paymentreference/</url>
-    <url desc="Support">https://github.com/kainuk/nl.schreeuwomleven.paymentreference/</url>
+    <url desc="Main Extension Page">https://github.com/HollandOpenSource/nl.schreeuwomleven.paymentreference/</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2017-08-11</releaseDate>
